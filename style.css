@@ -1,0 +1,391 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+}
+.th,
+.ta,
+.tn,
+h2,
+article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mh {
+	width: calc(100vw / 5);
+	height: 100vh;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	flex-direction: row;
+}
+.mh1 {
+	color: white;
+	letter-spacing: 15px;
+	box-shadow: white 10px 10px 5px 5px;
+	text-align: center;
+	border: 5px solid gray;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	position: fixed;
+}
+
+ol {
+	font-size: 34px;
+	list-style: none;
+	font-stretch: 5px;
+}
+
+nav > ol > li {
+	text-align: center;
+	display: flex;
+	width: 80vw;
+	height: calc(100vh / 4);
+	justify-content: center;
+	align-items: center;
+}
+li {
+	list-style: none;
+	color: black;
+	width: 80vw;
+	background: linear-gradient(90deg, whitesmoke, gray, black);
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+.mb {
+	background: black;
+}
+.a1 {
+	background: linear-gradient(90deg, black, gray, whitesmoke);
+	justify-content: center;
+	align-items: center;
+	text-decoration: underline dotted 3px white;
+}
+
+.a2 {
+	background: linear-gradient(90deg, black, gray, whitesmoke);
+	justify-content: center;
+	align-items: center;
+	text-decoration: underline dotted 3px white;
+}
+
+.a3 {
+	background: linear-gradient(90deg, black, gray, whitesmoke);
+	justify-content: center;
+	align-items: center;
+	text-decoration: underline dotted 3px white;
+}
+.a4 {
+	background: linear-gradient(90deg, black, gray, whitesmoke);
+	justify-content: center;
+	align-items: center;
+	text-decoration: underline dotted 3px white;
+}
+.tb {
+	display: flex;
+	flex-direction: column;
+}
+.th1 {
+	color: white;
+	letter-spacing: 15px;
+	box-shadow: white 10px 10px 5px 5px;
+	text-align: center;
+	border: 5px solid gray;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+}
+	
+.th {
+	width: 100vw;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	flex-direction: row;
+}
+
+p {
+	line-height: 1.6;
+	word-break: keep-all;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.tp {
+	padding: 20px;
+}
+
+.thome {
+	bottom: 170px;
+	margin: 40px;
+	letter-spacing: 10px;
+	font-size: 20px;
+	position: fixed;
+	padding-top: 10px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	border: 3px solid white;
+	border-radius: 10px;
+	box-shadow: white -8px -8px 5px 5px;
+}
+.tah {
+	color: white;
+}
+.title {
+	bottom: 10px;
+	margin: 40px;
+	letter-spacing: 10px;
+	font-size: 20px;
+	position: fixed;
+	padding-top: 10px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	border: 3px solid white;
+	border-radius: 10px;
+	box-shadow: white -8px -8px 5px 5px;
+}
+.tat {
+	color: white;
+}
+.tb {
+	background: linear-gradient(180deg, black, gray);
+}
+footer {
+	text-align: center;
+	color: white;
+}
+section {
+	width: 700px;
+	height: 1000px;
+	border: 6px solid white;
+	border-radius: 6px;
+	margin: 20px;
+	border-style: double;
+}
+h3 {
+	color: white;
+	text-align: center;
+	margin: 10px;
+	font-size: 30px;
+}
+img {
+	border-radius: 20px;
+	width: 688px;
+	height: 500px;
+}
+.ta {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.tn {
+	color: white;
+}
+.tul {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+}
+.tl1 {
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+	width: 95vw;
+}
+.tl2 {
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+	background: linear-gradient(90deg, black, gray, whitesmoke);
+	width: 90vw;
+}
+.tl3 {
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+	width: 95vw;
+}
+.tl4 {
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+	background: linear-gradient(90deg, black, gray, whitesmoke);
+	width: 90vw;
+}
+.tl5 {
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+	width: 95vw;
+}
+h2 {
+	padding: 20px;
+	color: white;
+	margin: 70px;
+}
+h3 {
+	color: white;
+}
+.th {
+	background: none;
+}
+.bb1 {
+	color: whitesmoke;
+}
+.bb2 {
+	color: black;
+}
+.bb3 {
+	color: whitesmoke;
+}
+.bb4 {
+	color: black;
+}
+.bb5 {
+	color: whitesmoke;
+}
+.thh1 {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	line-height: 1.6;
+	word-break: keep-all;
+	text-align: center;
+	border: 5px solid gray;
+	box-shadow: white 10px 10px 5px 5px;
+}
+.thh2 {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	line-height: 1.6;
+	word-break: keep-all;
+	text-align: center;
+	border: 5px solid gray;
+	box-shadow: white 10px 10px 5px 5px;
+}
+.thh3 {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	line-height: 1.6;
+	word-break: keep-all;
+	text-align: center;
+	border: 5px solid gray;
+	box-shadow: white 10px 10px 5px 5px;
+}
+.thh4 {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	line-height: 1.6;
+	word-break: keep-all;
+	text-align: center;
+	border: 5px solid gray;
+	box-shadow: white 10px 10px 5px 5px;
+}
+.thh5 {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	line-height: 1.6;
+	word-break: keep-all;
+	text-align: center;
+	border: 5px solid gray;
+	box-shadow: white 10px 10px 5px 5px;
+}
+@media screen and (max-width: 910px) {
+	.a1 {
+		font-size: 50px;
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+		margin: 70px;
+	}
+	.a2 {
+		font-size: 50px;
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+		margin: 70px;
+	}
+	.a3 {
+		font-size: 50px;
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+		margin: 70px;
+	}
+	.a4 {
+		font-size: 50px;
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+		margin: 70px;
+	}
+	li {
+		background: none;
+		font-size: 25px;
+	}
+
+	.thome {
+		margin: 20px;
+		box-shadow: white -3px -3px 1px 1px;
+		bottom: 200px;
+		font-size: 13px;
+	}
+	.title {
+		margin: 20px;
+		box-shadow: white -3px -3px 1px 1px;
+		bottom: 50px;
+		font-size: 13px;
+	}
+	section {
+		width: 350px;
+		height: 800px;
+	}
+	img {
+		width: 338px;
+		height: 400px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	p {
+		font-size: 18px;
+	}
+	.thh1 {
+	width: 200px;
+	height: 200px;
+	}
+	.thh2 {
+	width: 200px;
+	height: 200px;
+	}
+	.thh3 {
+	width: 200px;
+	height: 200px;
+	}
+	.thh4 {
+	width: 200px;
+	height: 200px;
+	}
+	.thh5 {
+	width: 200px;
+	height: 200px;
+	}
+}
