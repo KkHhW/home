@@ -25,6 +25,7 @@ article {
 	align-items: center;
 	background: black;
 	flex-direction: row;
+	margin: 15px;
 }
 .mh1 {
 	color: white;
