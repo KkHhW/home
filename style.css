@@ -72,6 +72,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	text-decoration: underline dotted 3px white;
+	text-underline-position: under;
 }
 
 .a2 {
@@ -79,6 +80,7 @@ a {
 	justify-content: center;
 	align-items: center;
 	text-decoration: underline dotted 3px white;
+	text-underline-position: under;
 }
 
 .a3 {
@@ -86,12 +88,30 @@ a {
 	justify-content: center;
 	align-items: center;
 	text-decoration: underline dotted 3px white;
+	text-underline-position: under;
 }
 .a4 {
 	background: linear-gradient(90deg, black, gray, whitesmoke);
 	justify-content: center;
 	align-items: center;
 	text-decoration: underline dotted 3px white;
+	text-underline-position: under;
+}
+.a1:hover {
+	background: white;
+	text-decoration: underline dotted 3px black;
+}
+.a2:hover {
+	background: white;
+	text-decoration: underline dotted 3px black;
+}
+.a3:hover {
+	background: white;
+	text-decoration: underline dotted 3px black;
+}
+.a4:hover {
+	background: white;
+	text-decoration: underline dotted 3px black;
 }
 .tb {
 	display: flex;
@@ -124,6 +144,7 @@ p {
 	text-align: center;
 	color: white;
 	font-size: 25px;
+	padding: 5px;
 }
 
 .tp {
@@ -171,7 +192,6 @@ footer {
 }
 section {
 	width: 700px;
-	height: 1000px;
 	border: 6px solid white;
 	border-radius: 6px;
 	margin: 20px;
@@ -187,6 +207,7 @@ img {
 	border-radius: 20px;
 	width: 688px;
 	height: 500px;
+	padding: 50px;
 }
 .ta {
 	display: flex;
@@ -309,6 +330,48 @@ h3 {
 	border: 5px solid gray;
 	box-shadow: white 10px 10px 5px 5px;
 }
+.thh1:hover {
+	background: white;
+	color: black;
+}
+.thh2:hover {
+	background: white;
+	color: black;
+}
+.thh3:hover {
+	background: white;
+	color: black;
+}
+.thh4:hover {
+	background: white;
+	color: black;
+}
+.thh5:hover {
+	background: white;
+	color: black;
+}
+.thome:hover {
+	background: gray;
+}
+.title:hover {
+	background: gray;
+}
+summary {
+	list-style-type: none;
+}
+.ib {
+	display: flex;
+	flex-direction: column;
+}
+.ih {
+	background: black;
+	color: white;
+	width: 20vw;
+}
+.in {
+	background: gray;
+	width: 20vw;
+}
 @media screen and (max-width: 910px) {
 	.a1 {
 		font-size: 50px;
@@ -357,17 +420,20 @@ h3 {
 	}
 	section {
 		width: 300px;
-		height: 800px;
+		justify-content: center;
+		align-items: center;
 	}
 	img {
 		width: 288px;
 		height: 400px;
+		padding: 20px;
 	}
 	h3 {
 		font-size: 20px;
 	}
 	p {
-		font-size: 18px;
+		font-size: 16px;
+		padding: 5px;
 	}
 	.thh1 {
 	width: 200px;
