@@ -89,27 +89,27 @@ li {
 	font-size: 18px;
 }
 .il1{
-	height: calc(80vh / 5);
+	height: calc(80vh / 4);
 	width: 20vw;
 	background: linear-gradient(90deg, black, dimgray);
 }
 .il2{
-	height: calc(80vh / 5);
+	height: calc(80vh / 4);
 	width: 20vw;
 	background: linear-gradient(90deg, black, gray);
 }
 .il3{
-	height: calc(80vh / 5);
+	height: calc(80vh / 4);
 	width: 20vw;
 	background: linear-gradient(90deg, black, darkgray);
 }
 .il4{
-	height: calc(80vh / 5);
+	height: calc(80vh / 8);
 	width: 20vw;
 	background: linear-gradient(90deg, black, silver);
 }
 .il5{
-	height: calc(80vh / 5);
+	height: calc(80vh / 8);
 	width: 20vw;
 	background: linear-gradient(90deg, black, lightgray);
 }
