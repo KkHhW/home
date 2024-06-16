@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: linear-gradient(180deg, black, dimgray, gray);
+}
+article {
+	display: flex;
+	flex-direction: column;
+ 	width: 100vw;
+ 	height: 130vh;
+ 	justify-content: center;
+	align-items: center;
+}
+img {
+	width: 60%;
+	height: 60%;
+	margin: 10px;
+}
+h1 {
+	color: white;
+	letter-spacing: 15px;
+	box-shadow: white 10px 10px 5px 5px;
+	text-align: center;
+	border: 5px solid gray;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	position: fixed;
+}
+section {
+	width: calc(100vw / 2);
+	height:;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 6px solid white;
+	border-radius: 6px;
+	margin: 20px;
+	border-style: double;
+	box-shadow: white 10px 10px 5px 5px;
+}
+h2 {
+	font-size: 30px;
+	margin: 0px;
+	color: white;
+	margin: 10px;
+	text-decoration: underline dotted 3px;
+	text-underline-position: under;
+}
+p {
+	line-height: 1.6;
+	word-break: keep-all;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	padding: 15px;
+}
+.tah {
+	color: white;
+}
+.tat {
+	color: white;
+}
+header {
+	width: 100vw;
+	text-align: center;
+}
+.thome:hover {
+	background: gray;
+}
+.title:hover {
+	background: gray;
+}
+.thome {
+	bottom: 170px;
+	margin: 40px;
+	letter-spacing: 10px;
+	font-size: 20px;
+	position: fixed;
+	padding-top: 10px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	border: 3px solid white;
+	border-radius: 10px;
+	box-shadow: white -8px -8px 5px 5px;
+}
+.title {
+	bottom: 10px;
+	margin: 40px;
+	letter-spacing: 10px;
+	font-size: 20px;
+	position: fixed;
+	padding-top: 10px;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	border: 3px solid white;
+	border-radius: 10px;
+	box-shadow: white -8px -8px 5px 5px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.thome:hover {
+	background: gray;
+}
+.title:hover {
+	background: gray;
+}
+@media screen and (max-width: 600px) {
+	.thome {
+		margin: 20px;
+		box-shadow: white -3px -3px 1px 1px;
+		bottom: 200px;
+		font-size: 13px;
+	}
+	.title {
+		margin: 20px;
+		box-shadow: white -3px -3px 1px 1px;
+		bottom: 50px;
+		font-size: 13px;
+	}
+}

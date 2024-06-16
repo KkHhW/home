@@ -52,7 +52,6 @@ li {
 }
 section {
 	width: calc(100vw / 2);
-	height: 80vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -86,123 +85,133 @@ a:hover {
 }
 
 .a1 {
-	background-color: slategray;
+	background-color: none;
 	margin-top: 10vh;
 }
 
 .a3 {
+	border: 0px;
 	display: flex;
 	flex-direction: column;
-	background-color: dimgray;
+	background-color: none;
 	margin-top: 10vh;
 	justify-content: start;
 	align-items: center;
 }
 .b1 {
-	background-color: slategray;
+	background-color: none;
 }
 
 .b3 {
+	border: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	background-color: dimgray;
+	background-color: none;
 }
 .c1 {
-	background-color: slategray;
+	background-color: none;
 }
 
 .c3 {
+	border: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	background-color: dimgray;
+	background-color: none;
 }
 .d1 {
-	background-color: slategray;
+	background-color: none;
 }
 
 .d3 {
+	border: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	background-color: dimgray;
+	background-color: none;
 }
 .e1 {
-	background-color: slategray;
+	background-color: none;
 }
 
 .e3 {
+	border: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	background-color: dimgray;
+	background-color: none;
 }
 
 .h1 {
-	background-color: slategray;
+	background-color: none;
 }
 
 .h3 {
+	border: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	background-color: dimgray;
+	background-color: none;
 }
 .i1 {
-	background-color: slategray;
+	background-color: none;
 }
 
 .i3 {
+	border: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	background-color: dimgray;
+	background-color: none;
 }
 .j1 {
-	background-color: slategray;
+	background-color: none;
 }
 
 .j3 {
+	border: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	background-color: dimgray;
+	background-color: none;
 }
 .k1 {
-	background-color: slategray;
+	background-color: none;
 }
 
 .k3 {
+	border: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	background-color: dimgray;
+	background-color: none;
 }
 .l1 {
-	background-color: slategray;
+	background-color: none;
 }
 
 .l3 {
+	border: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	background-color: dimgray;
+	background-color: none;
 }
 
 
 @media screen and (max-width: 600px) {
 	p {
-		font-size: 13px;
+		font-size: 15px;
 	}
 	article {
 		flex-direction: column;
@@ -211,7 +220,6 @@ a:hover {
 	}
 	section {
 		width: calc(100vw / 2);
-		height: 50vh;
 		display: flex;
 		flex-direction: column;
 	}
